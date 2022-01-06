@@ -14,9 +14,11 @@
 (function () {
   'use strict';
 
-  $("#rso a[data-jsarwt]").each(function()
-  {
-    $(this).attr('data-jsarwt', "");
-  });
+  window.addEventListener('load', function() {
+    $("#rso a[data-jsarwt]").each(function()
+    {
+      $(this).attr('data-jsarwt', "");
+    });
+  }, false);
 
 })();
