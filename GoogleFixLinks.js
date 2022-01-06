@@ -7,7 +7,7 @@
 // @icon         https://www.google.com/favicon.ico
 // @grant        none
 // @require      https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js
-// @run-at       document-end
+// @run-at       document-idle
 // ==/UserScript==
 
 
