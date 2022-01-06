@@ -10,15 +10,9 @@
 // @run-at       document-idle
 // ==/UserScript==
 
-
-(function () {
-  'use strict';
-
-  window.addEventListener('load', function() {
-    $("#rso a[data-jsarwt]").each(function()
-    {
-      $(this).attr('data-jsarwt', "");
-    });
-  }, false);
-
-})();
+window.addEventListener('load', function() {
+  $("#rso a[data-jsarwt]").each(function()
+  {
+    $(this).attr('data-jsarwt', "");
+  });
+}, false);
