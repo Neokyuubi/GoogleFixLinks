@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Fix Google Links
-// @version      0.4
+// @version      0.5
 // @description  Prevent google page from replacing search results links with the redirection ones
 // @author       Neokyuubi
 // @match        https://www.google.com/search?q=*
