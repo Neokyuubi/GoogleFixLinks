@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Fix Google Links
-// @version      0.1
-// @description  Prevent google page from replacing search results links with the redirection ones.
+// @version      0.2
+// @description  Prevent google page from replacing search results links with the redirection ones
 // @author       Neokyuubi
 // @match        https://www.google.com/search?q=*
 // @icon         https://www.google.com/favicon.ico
@@ -14,7 +14,8 @@
 (function () {
   'use strict';
 
-  $("#rso a[data-jsarwt]").each(function () {
+  $("#rso a[data-jsarwt]").each(function()
+  {
     $(this).attr('data-jsarwt', "");
   });
 
